@@ -1,0 +1,16 @@
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\M226B.exe
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\M226B.deps.json
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\M226B.runtimeconfig.json
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\M226B.runtimeconfig.dev.json
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\M226B.dll
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\ref\M226B.dll
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\bin\Debug\net5.0\M226B.pdb
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.csproj.AssemblyReference.cache
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.AssemblyInfoInputs.cache
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.AssemblyInfo.cs
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.csproj.CoreCompileInputs.cache
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.dll
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\ref\M226B.dll
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.pdb
+C:\Users\schlu\Documents\GitHub\M226B\M226B\M226B\obj\Debug\net5.0\M226B.genruntimeconfig.cache
