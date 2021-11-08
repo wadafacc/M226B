@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace M226B.Classes
 {
-    class FFile
+    abstract class FFile
     {
-        public string name;
-        public string fileText;
+        public string name { get; set; }
+        public string fileText { get; set; }
 
-        public FFile()
-        {
+        protected abstract string fileExtension { get; }
 
-        }
-        public FFile(string Name, string Text) : this()
+
+        
+        public FFile(string Name, string Text)
         {
             name = Name;
             fileText = Text;
@@ -36,22 +36,23 @@ namespace M226B.Classes
         /// </summary>
         /// <param name="name"></param>
         /// <param name="text"></param>
-        public virtual void GenerateFile(string name, string text)
+        public virtual void GenerateFile()
         {
             try
             {
+                var fullName = name + "." + fileExtension;
                 // Check if file already exists. If yes, delete it.     
-                if (File.Exists(name))
+                if (File.Exists(fullName))
                 {
-                    File.Delete(name);
+                    File.Delete(fullName);
                 }
 
                 // Create a new file     
-                using (FileStream fs = File.Create(name))
+                using (FileStream fs = File.Create(fullName))
                 {
                     // Add some text to file    
-                    Byte[] title = new UTF8Encoding(true).GetBytes(text);
-                    fs.Write(title, 0, title.Length);
+                    Byte[] txt = new UTF8Encoding(true).GetBytes(fileText);
+                    fs.Write(txt, 0, txt.Length);
 
                 }
             }

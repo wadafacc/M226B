@@ -21,8 +21,9 @@ namespace M226B
     {
         static void Main(string[] args)
         {
-            TxtFile newfile = new TxtFile("kek", "kek");
+            JSONFile newfile = new JSONFile("eeeeeeeeeeeeeeeeeee", "adwa");
             newfile.GenerateFile();
+            Console.WriteLine(newfile.fileText);
         }
     }
 }

@@ -10,41 +10,16 @@ namespace M226B.Classes
     class TxtFile : FFile
     {
 
-        public TxtFile(string Name, string Text)
-        {
-            name = Name;
-            fileText = Text;
-        }
-
-        public override void GenText()
+        public TxtFile(string Name, string Text) : base(Name, Text)
         {
             
         }
 
+        protected override string fileExtension { get; } = "txt";
 
-        public virtual void GenerateFile()
+        public override void GenText()
         {
-            try
-            {
-                // Check if file already exists. If yes, delete it.     
-                if (File.Exists(name))
-                {
-                    File.Delete(name);
-                }
-
-                // Create a new file     
-                using (FileStream fs = File.Create(name))
-                {
-                    // Add some text to file    
-                    Byte[] title = new UTF8Encoding(true).GetBytes(fileText);
-                    fs.Write(title, 0, title.Length);
-
-                }
-            }
-            catch (Exception Ex)
-            {
-                Console.WriteLine(Ex.ToString());
-            }
+            fileText = "hjello";
         }
     }
 }
