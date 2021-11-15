@@ -21,7 +21,7 @@ namespace M226B
     {
         static void Main(string[] args)
         {
-            JSONFile newfile = new JSONFile("eeeeeeeeeeeeeeeeeee", "adwa");
+            JSONFile newfile = new JSONFile("eeeeeeeeeeeeeeeeeee", data: new Data() { Field="yee", Value= "yeeet"});
             newfile.GenerateFile();
             Console.WriteLine(newfile.fileText);
         }
