@@ -22,9 +22,9 @@ namespace M226B
     {
         static void Main(string[] args)
         {
-            JSONFile newfile = new JSONFile("eeeeeeeeeeeeeeeeeee", Data: new Data() { Field="yee", Value= "yeeet"});
+            JSONFile newfile = new JSONFile("jarejare", Data: new Data() { Name="yee", Value= "yeeet"});
             newfile.GenFile();
-            Console.WriteLine(newfile.FileText);
+            Console.WriteLine(newfile.FileText.Normalize());
         }
     }
 }

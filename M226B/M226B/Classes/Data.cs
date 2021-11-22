@@ -8,7 +8,7 @@ namespace M226B.Classes
 {
     class Data
     {
-        public string Field { get; set; }
+        public string Name { get; set; }
         public string Value { get; set; }
     }
 }

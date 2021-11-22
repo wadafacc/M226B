@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schtewpid", "schtewpid\schtewpid.csproj", "{72AA7168-F289-49F6-944E-40E4C9B8FE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schtob", "schtob\schtob.csproj", "{5D416D0B-5631-435E-96FE-23C76CE7D393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72AA7168-F289-49F6-944E-40E4C9B8FE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AA7168-F289-49F6-944E-40E4C9B8FE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AA7168-F289-49F6-944E-40E4C9B8FE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AA7168-F289-49F6-944E-40E4C9B8FE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D416D0B-5631-435E-96FE-23C76CE7D393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D416D0B-5631-435E-96FE-23C76CE7D393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D416D0B-5631-435E-96FE-23C76CE7D393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D416D0B-5631-435E-96FE-23C76CE7D393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {671D8C73-0007-42FA-B28F-D3B070A9BAF0}
+	EndGlobalSection
+EndGlobal

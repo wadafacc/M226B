@@ -16,10 +16,10 @@ namespace M226B.Classes
 
 
         
-        public FFile(string Name, string Text)
+        public FFile(string name, string text)
         {
-            this.Name = Name;
-            FileText = Text;
+            Name = name;
+            FileText = text;
         }
 
 
@@ -56,8 +56,6 @@ namespace M226B.Classes
         /// <summary>
         /// Generates a File based on the Object's attributes
         /// </summary>
-        /// <param name="name"></param>
-        /// <param name="text"></param>
         public virtual void GenFile()
         {
             try
