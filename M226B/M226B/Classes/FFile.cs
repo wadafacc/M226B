@@ -9,17 +9,17 @@ namespace M226B.Classes
 {
     abstract class FFile
     {
-        public string name { get; set; }
-        public string fileText { get; set; }
+        public string Name { get; set; }
+        public string FileText { get; set; }
 
-        protected abstract string fileExtension { get; }
+        protected abstract string FileExtension { get; }
 
 
         
         public FFile(string Name, string Text)
         {
-            name = Name;
-            fileText = Text;
+            this.Name = Name;
+            FileText = Text;
         }
 
 
@@ -28,19 +28,41 @@ namespace M226B.Classes
 
         public virtual void GenText()
         {
-            fileText = "Henlo Wjorld";
+            FileText = "Henlo Wjorld";
         }
+
+        public virtual void GenTrash()
+        {
+            var fullName = Name + "." + FileExtension;
+            try
+            {
+                if (!File.Exists(fullName))
+                {
+                    Console.WriteLine("Error: There is no such File.");
+                }
+                else
+                {
+
+                }
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e + "\n Oops.");
+            }
+        }
+
 
         /// <summary>
         /// Generates a File based on the Object's attributes
         /// </summary>
         /// <param name="name"></param>
         /// <param name="text"></param>
-        public virtual void GenerateFile()
+        public virtual void GenFile()
         {
             try
             {
-                var fullName = name + "." + fileExtension;
+                var fullName = Name + "." + FileExtension;
                 // Check if file already exists. If yes, delete it.     
                 if (File.Exists(fullName))
                 {
@@ -51,7 +73,7 @@ namespace M226B.Classes
                 using (FileStream fs = File.Create(fullName))
                 {
                     // Add some text to file    
-                    Byte[] txt = new UTF8Encoding(true).GetBytes(fileText);
+                    Byte[] txt = new UTF8Encoding(true).GetBytes(FileText);
                     fs.Write(txt, 0, txt.Length);
 
                 }

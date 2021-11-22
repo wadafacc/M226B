@@ -13,16 +13,12 @@ namespace M226B.Classes
     class JSONFile : FFile
     {
 
-        public JSONFile(string Name, object data): base(Name, JsonSerializer.Serialize(data))
-        {
-            name = Name;
-
-        }
-        protected override string fileExtension { get; } = "json";
+        public JSONFile(string Name, object Data): base(Name, JsonSerializer.Serialize(Data)) {}
+        protected override string FileExtension { get; } = "json";
 
         public override void GenText()
         {
-
+            FileText = JsonSerializer.Serialize(FileText);
         }
     }
 }
