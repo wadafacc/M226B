@@ -10,8 +10,6 @@ namespace M226B.Classes
     class TxtFile : FFile
     {
 
-        public TxtFile(string Name, string Text) : base(Name, Text) {}
-
-        protected override string FileExtension { get; } = "txt";
+        public TxtFile(string Name, string Text) : base(Name, Text, ".txt") {}
     }
 }

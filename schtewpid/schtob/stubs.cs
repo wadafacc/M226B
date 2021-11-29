@@ -16,7 +16,7 @@ namespace schtob
     }
 
 
-    class Program
+    class stubs
     {
         static void Main(string[] args)
         {

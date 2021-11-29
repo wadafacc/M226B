@@ -12,14 +12,15 @@ namespace M226B.Classes
         public string Name { get; set; }
         public string FileText { get; set; }
 
-        protected abstract string FileExtension { get; }
+        protected string FileExtension { get; }
 
 
         
-        public FFile(string name, string text)
+        public FFile(string name, string text, string fileExtension)
         {
             Name = name;
             FileText = text;
+            FileExtension = fileExtension;
         }
 
 

@@ -27,8 +27,8 @@ namespace schtewpid
     {
         static void Main(string[] args)
         {
-            Processingdings thisObject = new Processingdings();
-            Processingdingsv2 thisObjectv2 = new Processingdingsv2();
+            IInterface thisObject = new Processingdings();
+            IInterface thisObjectv2 = new Processingdingsv2();
             thisObject.ShietStuff();
             thisObjectv2.ShietStuff();
         }
