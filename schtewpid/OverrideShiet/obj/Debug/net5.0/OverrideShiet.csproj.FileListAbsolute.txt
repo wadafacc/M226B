@@ -1,0 +1,16 @@
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\OverrideShiet.exe
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\OverrideShiet.deps.json
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\OverrideShiet.runtimeconfig.json
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\OverrideShiet.runtimeconfig.dev.json
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\OverrideShiet.dll
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\ref\OverrideShiet.dll
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\bin\Debug\net5.0\OverrideShiet.pdb
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.csproj.AssemblyReference.cache
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.AssemblyInfoInputs.cache
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.AssemblyInfo.cs
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.csproj.CoreCompileInputs.cache
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.dll
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\ref\OverrideShiet.dll
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.pdb
+C:\Users\schlu\Desktop\Projects\M226B\schtewpid\OverrideShiet\obj\Debug\net5.0\OverrideShiet.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OverrideShiet/1.0.0": {
+        "runtime": {
+          "OverrideShiet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OverrideShiet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
