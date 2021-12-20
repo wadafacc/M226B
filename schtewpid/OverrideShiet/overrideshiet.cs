@@ -2,41 +2,39 @@
 
 namespace OverrideShiet
 {
-    class BaseClass
+    class Inhabitant
     {
-        public virtual string Text { get; set; }
+        public virtual string Name { get; set; }
+        public virtual int Age { get; set; }
 
-        public virtual void Method()
+        public virtual void Kill()
         {
-            Console.WriteLine("Base Text ");
+            Console.WriteLine($"{Name} has been eliminated.");
         }
     }
 
-    class DerivedClass : BaseClass
+    class Student : Inhabitant
     {
         //override of polymorphic variable
-        public override string Text {
-            get => base.Text;
-            set => base.Text = "Not quite Base Text"; 
-        }
+        public override string Name { get => base.Name + " [STUDENT]"; }
 
         //override of method
-        public override void Method()
+        public override void Kill()
         {
-            Console.WriteLine("Not quite quite Base text");
+            Console.WriteLine($"{Name} cannot be killed. Reason: Student");
         }
-    }
+    }   
 
     class overrideshiet
     {
         static void Main(string[] args)
         {
-            var y = new BaseClass();
-            y.Method();
+            var y = new Inhabitant() { Name = "Matey", Age = 22 };
+            y.Kill();
 
 
-            var x = new DerivedClass();
-            x.Method();
+            var x = new Student() { Name = "Kevin", Age = 65 };
+            x.Kill();
         }
     }
 }

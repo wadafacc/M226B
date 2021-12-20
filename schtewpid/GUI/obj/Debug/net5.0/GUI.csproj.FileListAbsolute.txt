@@ -1,0 +1,16 @@
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\GUI.exe
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\GUI.deps.json
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\GUI.runtimeconfig.json
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\GUI.runtimeconfig.dev.json
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\GUI.dll
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\ref\GUI.dll
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\bin\Debug\net5.0\GUI.pdb
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.AssemblyInfoInputs.cache
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.AssemblyInfo.cs
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.csproj.CoreCompileInputs.cache
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.dll
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\ref\GUI.dll
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.pdb
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.genruntimeconfig.cache
+C:\Users\schlu\Documents\GitHub\M226B\schtewpid\GUI\obj\Debug\net5.0\GUI.csproj.AssemblyReference.cache

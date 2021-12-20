@@ -2,27 +2,40 @@
 
 namespace schtob
 {
-    interface IInderface
+    public interface IInderface
     {
-        public string DoShiet(string value);
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public void work();
+        public void schlep();
     }
-
-    class StubIInderface : IInderface
+    public class Stub : IInderface
     {
-        public string DoShiet(string value)
+        public string Name { set; get; }
+
+        public int Age { set; get; }
+        public Stub()
         {
-            return value + "yeeee";
+            Age = 50;
+            Name = "Georgy Zhukov";
+        }
+        public void work()
+        {
+            Console.WriteLine("commanding the tanks");
+        }
+        public void schlep()
+        {
+            Console.WriteLine("recovering from commanding");
         }
     }
-
-
-    class stubs
+    public class stubs
     {
-        static void Main(string[] args)
+        public void main(string[] args)
         {
-            // unit test code
-            var stub = new StubIInderface();
-            stub.DoShiet("fuckoff"); 
+            Stub Georgy = new Stub();
+            Console.WriteLine(Georgy.Name, Georgy.Age);
+            Georgy.schlep();
+            Georgy.work();
         }
     }
 }
