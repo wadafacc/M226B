@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StubsUnitTests
+namespace StubUnits
 {
     public class Person
     {
