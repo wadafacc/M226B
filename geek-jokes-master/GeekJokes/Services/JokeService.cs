@@ -3,13 +3,18 @@ using System.Threading.Tasks;
 
 namespace GeekJokes.Services
 {
-    public class JokeService
+    public class JokeService : IGetJoke
     {
         private JokeProvider provider;
+        private JokeService srvice;
 
         public JokeService(JokeProvider provider)
         {
             this.provider = provider;
+        }
+        public JokeService(IGetJoke inder)
+        {
+            this.srvice = inder;
         }
 
         public async Task<Joke> RetrieveAndAnalyzeJoke(bool includeSpecialChars = true, bool includeWhitespaces = true)

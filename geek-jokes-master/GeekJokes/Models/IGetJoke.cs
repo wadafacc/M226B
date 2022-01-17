@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace GeekJokes.Services
 {
-    interface IGetJoke
+    public interface IGetJoke
     {
-        public Joke Joke { get; set; }
+        public Joke Joke { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+
+        void RetrieveAndAnalyzeJoke();
     }
 }

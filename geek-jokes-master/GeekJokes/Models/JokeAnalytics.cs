@@ -1,4 +1,6 @@
-﻿namespace GeekJokes.Models
+﻿using GeekJokes.Services;
+
+namespace GeekJokes.Models
 {
     public class JokeAnalytics
     {

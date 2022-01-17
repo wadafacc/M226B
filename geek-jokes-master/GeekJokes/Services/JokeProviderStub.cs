@@ -8,10 +8,7 @@ namespace GeekJokes.Services
 {
     public class JokeProviderStub : JokeProvider
     {
-        public interface IGetJoke
-        {
-            public Joke Joke { get; set; }
-        }
+        
         public async Task<Joke> GetJoke()
         {
             Joke joke = new Joke() {};
